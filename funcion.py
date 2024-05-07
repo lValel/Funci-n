@@ -38,5 +38,3 @@ async def on_message(message):
         await message.channel.send (f"Tu contraseña es: {contrasenia}")
     else:
         await message.channel.send(message.content)
-
-client.run("MTIyOTU5ODIxNzE4ODkzMzc3Mw.GKdUvH.ybaLMghGyFHHPQnMnHrVoUzbn_soAvf8zX5PBM")
